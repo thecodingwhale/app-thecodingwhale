@@ -1,0 +1,31 @@
+From Wordpress to Contentful + Gatsby + Netlify
+
+My career started when I first start creating custom theme for wordpress site in my first company way back 2011. It was so amazing that I can make my PSD web design to a working wordpress theme. Wordpress was one of the reasons that triggers my enjoyment in web development and design.
+
+Fast forward I got 8 years building different kinds of websites with various business model and the blogging feature are always present in most of the time. Wordpress was still to go platform for deploying a cms as the part of the website. Plenty of plugins, already made themes and cheaper developers since almost 30% of total websites are building in Wordpress.
+
+Wordpress is Love.
+
+And for the most part of my career I'm always taking care of the frontend related things. From wireframe, UI/UX design to implementing in the frontend. For a quick math 85% frontend and the 15% are for the backend. Also right now I really enjoy creating various websites using ReactJS for more than 3 years now.
+
+Curiosity. Yes, this kind of feeling is always part of a character in being a programmer. We then to look for more better way of doing things, to make more even simple from already simple working way. Jekyll was the first static generator I use for creating static blog sites from mardown files. I was blown away from the first time I use it! It was so easy to publish a blog static site. Imaging without any backend and database I can possibly create a blog site in a breeze!
+
+But still something still missing
+
+Wordpress dashboard was still pretty slick from managing posts, creating new tags, adding new authors and much more. Jekyll is easy to use but not that scalable as wordpress. There are tradeoffs for the both platform and wish that it can be fix right way. So the rule of thumb if is a simple blog simple and needs small footprint I use Jekyll. But if the client wants too many aside from building custom theme use wordpress.
+
+Headless CMS?
+I was checking out my email when I first read a Headless CMS and it really caught my attention. Upon checking out in wiki:
+
+```
+A headless content management system, or headless CMS, is a back-end only content management system (CMS) built from the ground up as a content repository that makes content accessible via a RESTful API for display on any device.
+- https://en.wikipedia.org/wiki/Headless_content_management_system
+```
+
+But before this wordpress already have a RESTFUL api feature that can be also treated as headless CMS (https://www.sitepoint.com/wordpress-headless-cms/). But why I choose contentful over wordpress? I use netlify for hosting static websites and you can automate the deployment using a hook from github. That time I was checking out GatsbyJS to replace Jekyll for static site generator since I really love using ReactJS and surpricingly there are so many packages that easy and ready to use and gatsby-source-contentful (https://www.gatsbyjs.org/packages/gatsby-source-contentful/) was one of them and it also includes a starer boilerplate (https://github.com/contentful-userland/gatsby-contentful-starter) to publish static sites from contentful cms content and then can be deploy and host in netlify.
+
+The Great Solution.
+
+And now the answer from my last questions in how to build a static website but still the content are still dynamic and more likely how wordpress works are now solve. Thanks for the constant experimenting and learning of most the developers especially from the people around the contentful, gatsby and netlify.
+
+Currently I'm using this boilerplate (https://github.com/ryanwiemer/gatsby-starter-gcn) as a starting point for publish my static blog site. :)
